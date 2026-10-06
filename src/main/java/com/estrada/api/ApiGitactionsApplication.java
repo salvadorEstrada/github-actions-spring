@@ -13,6 +13,10 @@ public class ApiGitactionsApplication {
 	public String great() {
 		return "Hello from Spring Boot!";
 	}
+	@GetMapping("/greet1")
+	public String great1() {
+		return "Hello from Spring Boot!";
+	}
 
 	public static void main(String[] args) {
 		SpringApplication.run(ApiGitactionsApplication.class, args);
